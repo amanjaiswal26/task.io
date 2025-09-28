@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/v1';
+const API_URL = 'https://task-io-7jcg.onrender.com/api/v1';
 
 // Create axios instance
 const api = axios.create({
@@ -40,3 +40,4 @@ api.interceptors.response.use(
 );
 
 export default api;
+
